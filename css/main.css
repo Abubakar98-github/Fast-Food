@@ -1,0 +1,174 @@
+@font-face {
+  font-family: "poppins";
+  src: url(../Fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: "archive";
+  src: url(../Fonts/Archivo-Bold.ttf);
+}
+@font-face {
+  font-family: "nunito";
+  src: url(../Fonts/Nunito-Regular.ttf);
+}
+body {
+  font-family: nunito;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: archive;
+}
+
+.hero {
+  background-image: url(../Images/herobg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.hero .nav-link {
+  font-size: 1.4rem;
+  color: white;
+  font-family: poppins;
+}
+.hero p {
+  font-family: nunito;
+  font-size: 1.7rem;
+}
+.btn-primary {
+  background-color: #f64b3c;
+  border: none;
+  border-radius: 50px;
+}
+.btn-primary:hover {
+  background-color: #9b160a !important;
+}
+.founder {
+  background-image: url(../Images/Design.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #f64b3c;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.founder p {
+  font-size: 1.7rem;
+}
+.order {
+  background-color: #f64b3c;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.order p {
+  font-size: 1.7rem;
+}
+.btn-tomato {
+  background-color: white;
+  color: #f64b3c !important;
+}
+.order-now {
+  background-image: url(../Images/Design2.png);
+  background-position: center;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #f64b3c;
+}
+.order-now p {
+  font-size: 1.7rem;
+}
+.statistics {
+  background-color: #f64b3c;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.statistics p {
+  font-size: 1.7rem;
+}
+.statistics .box {
+  background-color: #f64b3c;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 70px;
+  margin-top: 50px;
+}
+.package {
+  color: #f64b3c;
+  background-image: url(../Images/pkbg.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.package p {
+  font-size: 1.2rem;
+}
+.package .box {
+  width: 280px;
+  height: 400px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+.barry {
+  background-image: url(../Images/bgImage.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.barry p {
+  font-size: 2.1rem;
+}
+.update {
+  background-image: url(../Images/Design.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #f64b3c;
+}
+.update p {
+  font-size: 1.7rem;
+}
+.input {
+  width: 500px;
+  padding: 10px 35px;
+  border: none;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.input:focus {
+  outline: none;
+}
+::placeholder {
+  color: #f64b3c;
+}
+.update .btnform {
+  padding: 10px 20px !important;
+  background-color: #f64b3c;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  font-size: 1rem;
+  position: relative;
+  left: -3px;
+}
+.title {
+  background-color: #222222;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.title p {
+  font-size: 1.7rem;
+}
+
+@media (max-width: 786px) {
+  .input {
+    width: 250px;
+  }
+}
