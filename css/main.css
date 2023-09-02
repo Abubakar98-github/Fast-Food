@@ -42,7 +42,8 @@ h6 {
   border-radius: 50px;
 }
 .btn-primary:hover {
-  background-color: #9b160a !important;
+  background-color: #eb3a2a !important;
+  transition: 0.8s !important;
 }
 .founder {
   background-image: url(../Images/Design.jpg);
@@ -66,6 +67,11 @@ h6 {
 .btn-tomato {
   background-color: white;
   color: #f64b3c !important;
+}
+.btn-tomato:hover {
+  background-color: #f64b3c !important;
+  color: #fff !important;
+  border: 1px solid white;
 }
 .order-now {
   background-image: url(../Images/Design2.png);
